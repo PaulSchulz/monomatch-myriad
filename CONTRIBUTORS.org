@@ -1,0 +1,9 @@
+* Contributors
+** Maintainer(s):
+  Paul Schulz <paul@mawsonlakes.org>
+
+** Icon Contributors:
+  Paul Schulz <paul@mawsonlakes.org>
+
+** Icon Wranglers:
+  None (Yet)
