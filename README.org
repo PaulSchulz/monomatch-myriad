@@ -16,7 +16,8 @@ The Dobble (or Spot It) pack uses 55 cards (is missing 2 cards from a
 complete set), and is based on 8 symbols on each card.
 
 With the aim to make a contribution in the area of monomatch games, Matt
-produced a set of 1,001 cards with 10,303 unique icons.
+produced a set of 1,001 cards with 10,303 unique icons, with 102 icons on each
+card.
 
 Some of the other considerations included:
 - Avoiding manual checking of images;
@@ -27,21 +28,33 @@ Some of the other considerations included:
 - Icons rotated by arbitrary angle only (no scaling).
 - Code is verifyable on small icon case (eg. with Dobble with )
 
+Here are some other comments from Matt about how his cards were created:
+
 *** Single use code
-The python code used to manipulate the icon files and produce the cards os  
+The python code used to manipulate the icon files and produce the cards was
+deemed to be 'single use' and so it was decided not to share it directly. Matt
+was nice enough to explain how the programs he wrote worked and how they were
+glued together, so it is possible to replicate this 'single use' code.
+
+*** Colourer and Re-colouring (Python)
+The colour for each icon is chosen to optimise ability to distinguish colours
+for most common forms of colour blindness and changes the icons colour (default
+forground color is black) and adds transparency.
 
 *** Use of photoshop
-Pentagon file shape used. 
+A pentagon file shape used in photoshop to layout 20 icon positions in a 1/5th
+segment of the pentagon and display. 
 
-*** Spreadsheet
-The spreadsheet was used to create a full set of coordinates for icons based on
-manual layout of icon spots in 
+*** Coordinate Spreadsheet
+A spreadsheet was used to create the full set of coordinates. The location for
+the 20 icons from the previous step are rotated four times by 72 degrees. Two
+icons were added manually to the middle of the card at the end.
 
 *** Card Allocator (Python)
-This code allocates icons to cards
+This code allocates icons to cards.
 
 *** Making Cards (Python)
-Creates PNG files of card for printing, 
+Creates PNG files of card for printing.
 
 ** The Licensing Issue
 
