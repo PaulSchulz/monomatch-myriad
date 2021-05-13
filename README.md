@@ -1,2 +1,2 @@
 # monomatch-myriad
-A collection of resources to make the "Monomatch: Myriad". Icons etc.
+A collection of resources to make the "Monomatch: Myriad" cards. Icons etc.
