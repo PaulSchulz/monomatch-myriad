@@ -1,0 +1,94 @@
+* monomatch-myriad
+A collection of resources to make the "Monomatch: Myriad" cards. Icons etc.
+
+Author: Paul Schulz <paul@mawsonlakes.org>
+
+** Introduction
+
+Dobble[1] (or Spot It[2]) is a game with cards, which requires players to spot
+the shared symbol between any two cards in the set.
+
+In the Stand-up Maths video "How does Dobble (Spot It) work?"[3], Matt Parker
+from Stand-up Maths, describes how the mathematics behind this type pf
+'monomatch' game works.
+
+The Dobble (or Spot It) pack uses 55 cards (is missing 2 cards from a
+complete set), and is based on 8 symbols on each card.
+
+With the aim to make a contribution in the area of monomatch games, Matt
+produced a set of 10,303 cards with 1001 unique icons.
+
+Some of the other considerations included:
+- Avoiding manual checking of images;
+- Avoid icons printed with thin lines;
+- With Colors chosen to optimise ability to distinguish colours for most common
+  forms of colour blindness;
+- Biggest dimension of icon is 200 (x or y);
+- Icons rotated by arbitrary angle only (no scaling).
+- Code is verifyable on small icon case (eg. with Dobble with )
+
+*** Single use code
+The python code used to manipulate the icon files and produce the cards os  
+
+*** Use of photoshop
+Pentagon file shape used. 
+
+*** Spreadsheet
+The spreadsheet was used to create a full set of coordinates for icons based on
+manual layout of icon spots in 
+
+*** Card Allocator (Python)
+This code allocates icons to cards
+
+*** Making Cards (Python)
+Creates PNG files of card for printing, 
+
+** The Licensing Issue
+
+The cards, as they were originally produced, were not able to be made generally
+available, for sale or otherwise, due to the licensing conditions on the images
+used by Matt in their creation.
+
+This repository aims to fix this by providing suitably licensed resources
+(icons) so that a complete set of cards can be produced and distributed, free of
+this restriction.
+
+** The Deal
+
+Nothing has yet been discussed with Matt Parker about this repository or it's
+eventual use.
+
+Everything collected here will be made available under a Libra and Open Source
+license, which has currently been chosen to be the GNU AFFERO GENERAL PUBLIC
+LICENSE (Version 3, 19 November 2007). IANAL, so if someone has a good reason
+for this to be changed I would be happy to hear it.
+
+** Contributions
+
+Free free to contribute suitable icons. The preferred method is to clone this
+repository, make any changes with a suitable commit message and submit a pull
+request.
+
+Contributors will be asked to make contributions with a sign-off in their commit
+in the same way that contributions are made to the Linux kernel[5].
+
+You will need to agree with the Certificate of Origin[5] and include the
+'Signed-off-by:' line in the commit message of your contribution. For example:
+#+begin_src 
+Signed-off-by: Random J Contributor <random@contributor.example.org>
+#+end_src 
+
+Also, please, no unsavoury, obscene or overtly political images, Inclusion of
+any image in this set will be at the discretion of the repository holder. 
+
+Thank you for your contributions, Paul
+
+** References
+- [1] Dobble on Amazon: https://amazon.com.au/Asmodee-Dobble/dp/B07QVWLSBV
+- [2] Spot It on Amazon: https://www.amazon.com.au/SPOT-IT/dp/B076HFTXYB
+- [3] How does Dobble (Spot It) work?
+  - Youtube: Stand-up Maths  https://youtu.be/VTDKqW_GLkw
+- [4] How I made a game with 10,303 different cards!
+  - Youtube: Matt_Parker_2 https://youtube.com/watch?v=_l6h8v6R7yo
+- [5] Linux Kernel Certificate of Origin v1.1
+  https://01.org/community/signed-process
