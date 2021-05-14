@@ -5,8 +5,8 @@ Maintainer: Paul Schulz <paul at mawsonlakes dot org>
 
 ** Introduction
 
-Dobble[1] (or Spot It[2]) is a game with cards, which requires players to spot
-the shared symbol between any two cards in the set.
+Dobble[1] (or Spot It[2]) is a game with with a set of cards, which requires players to spot
+the shared symbol between any two of the cards in the set.
 
 In the Stand-up Maths video "How does Dobble (Spot It) work?"[3], Matt Parker
 from Stand-up Maths, describes how the mathematics behind this type pf
