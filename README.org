@@ -1,7 +1,7 @@
 * monomatch-myriad
 A collection of resources to make the "Monomatch: Myriad" cards. Icons etc.
 
-Author: Paul Schulz <paul@mawsonlakes.org>
+Maintainer: Paul Schulz <paul at mawsonlakes dot org>
 
 ** Introduction
 
