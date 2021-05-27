@@ -86,7 +86,7 @@ collected, different size card sets can be created.
 
 |-----------+-------+----------+---------|
 | Generator | Cards |  Symbols | Symbols |
-|   (order) |       | per card |         |
+|   (order) |       | per card |   total |
 |-----------+-------+----------+---------|
 |         3 |    13 |        4 |      13 |
 |         5 |    31 |        6 |      31 |
