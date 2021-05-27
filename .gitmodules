@@ -1,0 +1,3 @@
+[submodule "tools/icons"]
+	path = tools/icons
+	url = git@github.com:PaulSchulz/icons.git
