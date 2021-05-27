@@ -119,14 +119,16 @@ collected, different size card sets can be created.
 
 ** Contributions
 
-Free free to contribute suitable icons. The preferred method is to clone this
-repository, make any changes with a suitable commit message and submit a pull
-request.
+Free free to contribute suitable icons. 
 
-- Ideas for suitable icons can be placed in 'icons-incoming' as black and white
-  png images. They will be removed once converted to suitable icon format.
+The preferred method is to clone this repository, add icon files to
+'icons/incoming', commit with a suitable commit message (see below) and submit a
+pull request on GitHub.
 
-- Processed icons readly for use will be placed in 'icons-svg' (in SVG format).
+- Icon ideas for suitable icons can be placed in 'icons/incoming' as black and
+  white png images. They will be removed once converted to suitable icon format.
+
+- Processed icons readly for use will be in 'icons/svg' (in SVG format).
 
 Contributors will be asked to make contributions with a sign-off in their commit
 in the same way that contributions are made to the Linux kernel[5].
