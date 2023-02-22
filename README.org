@@ -1,13 +1,29 @@
-* monomatch-myriad
+#+TITLE: monomatch-myriad 
+
 A collection of resources to make the "Monomatch: Myriad" cards. Icons etc.
 
 Maintainer: Paul Schulz <paul at mawsonlakes dot org>
 
-** Introduction
+* Contents :TOC:
+- [[#introduction][Introduction]]
+  - [[#progress][Progress]]
+  - [[#background][Background]]
+  - [[#the-licensing-issue][The Licensing Issue]]
+- [[#the-deal-with-these-tools][The deal with these tools]]
+- [[#card-sets][Card Sets]]
+- [[#contributions-of-interestins-icons-or-emogies][Contributions of interestins Icons or Emogies]]
+- [[#references][References]]
+
+* Introduction
 
 Dobble[1] (or Spot It[2]) is a game with with a set of cards, which requires players to spot
 the shared symbol between any two of the cards in the set.
 
+** Progress
+- May 2021 :: Initial commit and ideas.
+- Feb 2921 :: Revisit with aim of producing a 'standard' 55 card deck.
+    
+** Background
 In the Stand-up Maths video "How does Dobble (Spot It) work?"[3], Matt Parker
 from Stand-up Maths, describes how the mathematics behind this type pf
 'monomatch' game works.
@@ -66,20 +82,16 @@ This repository aims to fix this by providing suitably licensed resources
 (icons) so that a complete set of cards can be produced and distributed, free of
 this restriction.
 
-** The Deal
-
-Nothing has yet been discussed with Matt Parker about this repository or it's
-eventual use.
+* The deal with these tools
+This is currently a personal hobby project and nothing has yet been discussed
+with Matt Parker about this repository or it's eventual use.
 
 Everything collected here will be made available under a Libra and Open Source
 license, which has currently been chosen to be the GNU AFFERO GENERAL PUBLIC
 LICENSE (Version 3, 19 November 2007). IANAL, so if someone has a good reason
 for this to be changed I would be happy to hear it.
 
-*** Stretch Goals
-
-Like any good Kickstarter[TM] type project there are also stretch goals.
-
+* Card Sets
 Monomatch sets of cards can be generated from projective planes of prime order
 (or even orders of prime orders). Depending on the number of icons that are
 collected, different size card sets can be created.
@@ -118,19 +130,22 @@ collected, different size card sets can be created.
 |-----------+-------------+----------+-------------|
 #+TBLFM: $2=$1 * $1 + $1 +1::$3=$1 + 1::$4=$1 * $1 + $1 + 1
 
+* Contributions of interestins Icons or Emogies
+A source of freely usable Icons has been found, so no longer need to create my
+own, or rely on contributions. 
 
-** Contributions
+Free free to still contribute any icons that you think may be suitable. 
 
-Free free to contribute suitable icons. 
+They can be sent through to the project email, but the preferred method is use
+GitHub, that way 'the internet' can keep track of your contributons.
 
-The preferred method is to clone this repository, add icon files to
-'icons/incoming', commit with a suitable commit message (see below) and submit a
-pull request on GitHub.
+Clone this repository, add icon files to the 'icons/incoming' folder, commit
+with a suitable commit message (see below) and submit a pull request on GitHub.
 
 - Icon ideas for suitable icons can be placed in 'icons/incoming' as black and
   white png images. They will be removed once converted to suitable icon format.
 
-- Processed icons readly for use will be in 'icons/svg' (in SVG format).
+- Processed icons ready for use will be in 'icons/svg' (in SVG format).
 
 Contributors will be asked to make contributions with a sign-off in their commit
 in the same way that contributions are made to the Linux kernel[5].
@@ -146,7 +161,7 @@ any image in this set will be at the discretion of the repository holder.
 
 Thank you for your contributions, Paul
 
-** References
+* References
 - [1] Dobble on Amazon: https://amazon.com.au/Asmodee-Dobble/dp/B07QVWLSBV
 - [2] Spot It on Amazon: https://www.amazon.com.au/SPOT-IT/dp/B076HFTXYB
 - [3] How does Dobble (Spot It) work?
