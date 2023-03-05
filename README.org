@@ -11,17 +11,18 @@ Maintainer: Paul Schulz <paul at mawsonlakes dot org>
   - [[#the-licensing-issue][The Licensing Issue]]
 - [[#the-deal-with-these-tools][The deal with these tools]]
 - [[#card-sets][Card Sets]]
+- [[#generating-cards][Generating Cards]]
 - [[#contributions-of-interestins-icons-or-emogies][Contributions of interestins Icons or Emogies]]
 - [[#references][References]]
 
 * Introduction
 
-Dobble[1] (or Spot It[2]) is a game with with a set of cards, which requires players to spot
+Dobble[1] and Spot It[2] is a game with with a set of cards, which requires players to spot
 the shared symbol between any two of the cards in the set.
 
 ** Progress
 - May 2021 :: Initial commit and ideas.
-- Feb 2921 :: Revisit with aim of producing a 'standard' 55 card deck.
+- Feb 2023 :: Revisit with aim of producing a 'standard' 55 card deck.
     
 ** Background
 In the Stand-up Maths video "How does Dobble (Spot It) work?"[3], Matt Parker
@@ -130,6 +131,23 @@ collected, different size card sets can be created.
 |-----------+-------------+----------+-------------|
 #+TBLFM: $2=$1 * $1 + $1 +1::$3=$1 + 1::$4=$1 * $1 + $1 + 1
 
+* Generating Cards
+
+One way of generating cards is by noting that there exists a numerical sequence,
+which contains all possible integer differences (see [4]). Namely for 57 cards:
+
+#+begin_src ascii
+  0, 1, 3, 13, 32, 36, 43, 52
+#+end_src
+
+The symbols for each card can be found by:
+- Arrange 57 cards in a ring, numbering them from 0 to 56
+- Pick a symbol, and staring at card 0, add it to each card with the
+  number given in the list.
+- Move the starting point to the next card along
+- Repeat the process with the next symbol, until the process has gone though all
+  57 cards.
+
 * Contributions of interestins Icons or Emogies
 A source of freely usable Icons has been found, so no longer need to create my
 own, or rely on contributions. 
@@ -166,6 +184,7 @@ Thank you for your contributions, Paul
 - [2] Spot It on Amazon: https://www.amazon.com.au/SPOT-IT/dp/B076HFTXYB
 - [3] How does Dobble (Spot It) work?
   - Youtube: Stand-up Maths  https://youtu.be/VTDKqW_GLkw
+  - Diophantine Sequence Discussion - https://youtu.be/VTDKqW_GLkw?t=990
 - [4] How I made a game with 10,303 different cards!
   - Youtube: Matt_Parker_2 https://youtube.com/watch?v=_l6h8v6R7yo
 - [5] Linux Kernel Certificate of Origin v1.1
